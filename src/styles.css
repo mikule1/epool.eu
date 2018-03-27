@@ -5,3 +5,11 @@
 .list-group-item {
     border: none;
 }
+
+li {
+    margin-bottom: 8px;
+}
+
+[name="coins"]{
+    background-color: antiquewhite;
+}
