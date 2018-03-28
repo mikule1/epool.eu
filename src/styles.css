@@ -10,6 +10,47 @@ li {
     margin-bottom: 8px;
 }
 
-[name="coins"]{
-    background-color: antiquewhite;
+[name="pirl"]{
+    border-style: solid;
+    border-color: silver;
+    background-color: #effff7;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+   
+    
+
+[name="clo"]{
+    border-style: solid;
+    border-color: silver;
+    background-color: #effff7;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+body{
+    background-image: url("http://pirl.epool.eu/bg-fd25cf263f97e81a3b403a06dae0013e.png")
+}
+
+.jumbotron{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+span.logo-1{
+    font-weight: 700;
+    color: #1994b8;
+}
+
+span.logo-2{
+    font-weight: 300;
+    color: #FFF;
+}
+
+.navbar{
+    background-color: black;
+    border-color: black;
 }

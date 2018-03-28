@@ -2,15 +2,16 @@
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" [class.collapsed]="!(navState$ | async).showNavigation" aria-expanded="false" (click)="toggleNavigation()">
-        <span class="sr-only">Toggle navigation</span>
+      <<!-- button type="button" class="navbar-toggle" [class.collapsed]="!(navState$ | async).showNavigation" aria-expanded="false" (click)="toggleNavigation()"> -->
+        <!-- <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" routerLink="/">Brand</a>
+      </button> -->
+      <a class="navbar-brand" href="http://epool.eu"><span class="logo-1">E</span><span class="logo-2">POOL.EU</span></a>
+      <!-- <a class="navbar-brand" routerLink="/">EPOOL.EU</a> -->
     </div>
-    <div [class.collapse]="!(navState$ | async).showNavigation && window.innerWidth < 768">
+    <!-- <div [class.collapse]="!(navState$ | async).showNavigation">
       <ul class="nav navbar-nav navbar-right" *ngIf="isLoggedIn$ | async">
         <li><button class="btn btn-link navbar-btn" routerLink="/account/profile">Profile</button></li>
         <li><button class="btn btn-link navbar-btn" routerLink="/account/info">Account</button></li>
@@ -20,6 +21,6 @@
         <li><button routerLink="/sign-up" class="btn btn-default navbar-btn">Sign up</button></li>
         <li><button class="btn btn-link navbar-btn"(click)="showLogInModal()">Log In</button></li>
       </ul>
-    </div>
+    </div> -->
   </div>
 </nav>
